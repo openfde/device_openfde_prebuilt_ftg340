@@ -1,7 +1,7 @@
 ifneq ($(TARGET_HAVE_LEOPARD),false)
 LEOPARD_PRODUCT_PACKAGES := \
     gralloc.FTG340 \
-    libdrm_ftg340 \
+    libdrm_FTG340 \
     libEGL_FTG340 \
     libGLESv1_CM_FTG340 \
     libGLESv2_FTG340 \
@@ -10,8 +10,7 @@ LEOPARD_PRODUCT_PACKAGES := \
     libVSC \
     libvulkan_FTG340 \
     vulkan.FTG340 \
-    libSPIRV_ftg \
-    libdrm_android
+    libSPIRV_FTG340
 PRODUCT_PACKAGES += \
         $(LEOPARD_PRODUCT_PACKAGES)
 endif
